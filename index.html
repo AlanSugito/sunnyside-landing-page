@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/mobile.css">
+  </head>
+  <body>
+    <nav>
+      
+      <h1>Sunnyside</h1>
+      <div class="burger-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <ul >
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#service">Services</a></li>
+        <li class="nav-link"><a href="#project">Project</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+      </ul>
+      
+    </nav>
+    <section class="banner bg">
+      <h1>We are creatives</h1>
+      <img src="images/icon-arrow-down.svg" alt="..." class="arrow">
+    </section>
+    <section class="row" id="about">
+      <div class="col">
+        <div class="text">
+          <h1>Transform your brand</h1>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <p><a href="#" class="hover-yellow">Learn more</a></p>
+        </div>
+      </div>
+      <div class="col transform bg"></div>
+    </section>
+    <section class="row">
+      <div class="col">
+        <div class="text">
+          <h1 class="text-head">Stand out to the right audience</h1>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <p><a href="#" class="hover-red">Learn more</a></p>
+        </div>
+      </div>
+      <div class="col stand-out bg"></div>
+    </section>
+    <div class="row" id="service">
+      <div class="service graphic-design bg">
+        <div class="text-caption">
+          <h2>Graphic design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+      <div class="service photography bg">
+        <div class="text-caption">
+          <h2>Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div> 
+    </div>
+    <section class="comment-section">
+      <h2>Client testimonials</h2>
+      <div class="comments"></div>
+    </section>
+    <section class="gallery" id="project">
+      <div class="image-gallery milk"></div>
+      <div class="image-gallery orange"></div>
+      <div class="image-gallery cone"></div>
+      <div class="image-gallery sugar"></div>
+    </section>
+    <footer>
+      <div class="footer">
+        <h1>Sunnyside</h1>
+        <ul class="link">
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook"></a></li>
+            <li><a href="#"><img src="images/icon-instagram.svg" alt="instagram"></a></li>
+            <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/icon-pinterest.svg" alt="pinterest"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+   
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="src/data.js"></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>
